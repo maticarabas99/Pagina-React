@@ -1,8 +1,5 @@
-import {
-    BrowserRouter,
-    Routes as ReactDomRoutes,
-    Route,
-  } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Routes as ReactDomRoutes, Route } from 'react-router-dom';
 import { HomeLayout } from '../layout/home/home_layout';
 import { Header } from '../pages/header/header';
 import { AboutUs } from '../pages/about_us/about_us';
