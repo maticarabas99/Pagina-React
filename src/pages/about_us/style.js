@@ -8,6 +8,9 @@ margin: 200px;
 line-height: 40px;
 justify-content: top;
 height: 100vh;
+@media (max-width: 768px) {
+    margin: 70px 10px;
+}
 @media (max-width: 425px) {
     line-height: 30px;
 }

@@ -8,6 +8,9 @@ flex-direction: column;
 height: 100vh;
 padding: 200px;
 background-color: var(--amarillo);
+@media (max-width: 768px) {
+    padding: 70px 10px;    
+}
 `
 export const ContactTitle = styled.h1`
 font-size: 3rem;
