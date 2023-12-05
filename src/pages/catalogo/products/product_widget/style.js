@@ -12,10 +12,12 @@ align-items: center;
 export const Products = styled.div`
 display: flex;
 justify-content: center;
+margin: 36px
 `
 export const ProductWidgetTitle = styled.h2`
 font-size: 3rem;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-top: 100px;
 `

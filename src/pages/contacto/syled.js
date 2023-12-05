@@ -6,6 +6,7 @@ justify-content: top;
 align-items: center;
 flex-direction: column;
 height: 100vh;
+padding: 200px;
 background-color: var(--amarillo);
 `
 export const ContactTitle = styled.h1`

@@ -11,7 +11,7 @@ export const AboutUs = () => {
       para impulsar tu rendimiento. Nuestro compromiso es brindarte la
       calidad que mereces mientras persigues tus pasiones deportivas. Únete
       a nosotros en este emocionante viaje hacia la excelencia en el deporte
-      y el estilo de vida activo."
+      y el estilo de vida activo.
     </AboutUsText>
     </AboutUsContainer>
   )

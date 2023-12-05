@@ -4,7 +4,7 @@ export const AboutUsContainer = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-margin: 30px;
+margin: 200px;
 line-height: 40px;
 justify-content: top;
 height: 100vh;

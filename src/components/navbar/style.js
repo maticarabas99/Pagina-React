@@ -8,12 +8,15 @@ align-items: center;
 height: 50px;
 background-color: black;
 padding: 10px;
-  
+position: fixed;
+width: 100%;
+top: 0;
 `
 export const LinkContainer = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
+margin-right: 20px;
 gap: 10px;
 @media (max-width: 768px) {
 display: block;
@@ -76,7 +79,7 @@ gap: 10px;
 export const ToggleMenu = styled.button`
 background-color: var(--amarillo);
 color: black;
-display: none;
+display: none;      
 @media (max-width: 768px) {
     display: block;
 }
@@ -85,7 +88,8 @@ export const HamburguerMenu = styled.div`
 display: none;
 font-size: 2.5rem;
 color: #fff;
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 display: block;
+margin-right: 20px;
 }
 `
