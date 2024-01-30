@@ -7,7 +7,6 @@ import { ProductWidgetContainer, ProductWidgetTitle, Products } from './style'
 export const ProductWidget = () => {
   return (
 <div>
-    <ProductWidgetTitle>Productos</ProductWidgetTitle>
     <ProductWidgetContainer>
         {
             productos.map((product) => <ProductCard key={product.id} {...product} />)

@@ -5,6 +5,7 @@ import { CategoryWidget } from './categories/category_widget/category_widget'
 export const Catalogo = () => {
   return (
     <div>
+        <CategoryWidget />
         <ProductWidget />
     </div>
   )
